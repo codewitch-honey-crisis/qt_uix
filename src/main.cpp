@@ -24,6 +24,7 @@ static const open_font& text_font = OpenSans_Regular;
 // declare the format of the screen
 using screen_t = screen<LCD_WIDTH, LCD_HEIGHT, rgb_pixel<16>>;
 // declare the control types to match the screen
+using label_t = label<typename screen_t::pixel_type>;
 using svg_box_t = svg_box<typename screen_t::pixel_type>;
 // for access to RGB565 colors which LCDs and the main screen use
 using color16_t = color<rgb_pixel<16>>;
