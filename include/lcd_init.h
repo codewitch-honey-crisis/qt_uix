@@ -1,6 +1,6 @@
 #ifndef LCD_INIT_H
 #define LCD_INIT_H
-#include "lcd_config.h"
+#include "config.h"
 #include <esp_lcd_panel_io.h>
 #ifdef __cplusplus
 extern "C" {
